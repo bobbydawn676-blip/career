@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+background-color: black;
+color: lightgray;
+line-height: 1.6;
+}
+
+nav {
+    background-color: midnightblue;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-beween;
+    align-items: center;
+    border-bottom: 1px solid darkslatergray;
+}
+
+.logo{
+    color: gold;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: midnightblue;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero .subtitle {
+  font-size: 20px;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  color: lightgray;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: gold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: goldenrod;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid gold;
+  color: gold;
+}
+
+.btn-outline:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* Normal sections */
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 25px;
+  border-left: 4px solid gold;
+  padding-left: 12px;
+}
+
+/* Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: darkslategray;
+  border: 1px solid dimgray;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.card h3 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: lightgray;
+  font-size: 15px;
+}
+
+/* Experience timeline */
+.timeline-item {
+  background-color: darkslategray;
+  border-left: 3px solid gold;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 0 6px 6px 0;
+}
+
+.timeline-item h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.timeline-item .meta {
+  color: gold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Contact form */
+.contact-form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: lightgray;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: darkslategray;
+  border: 1px solid dimgray;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 120px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid dimgray;
+  color: gray;
+  margin-top: 40px;
+}
+
